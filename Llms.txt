@@ -1,0 +1,40 @@
+# AI Ads Partner
+
+> AI Ads Partner is an AI search visibility audit and consulting service for businesses in the United States and United Kingdom. We measure how often a business is recommended when customers ask AI assistants — ChatGPT, Claude, Gemini, and Perplexity — for product, service, or vendor recommendations. We then deliver a custom action plan to improve that visibility. Our tagline is "Be the Answer."
+
+## What We Do
+
+AI Ads Partner helps businesses become the answer when potential customers ask AI assistants for recommendations. The core service is the AI Visibility Audit: we run 80 real customer queries (20 per platform × 4 platforms) against ChatGPT, Claude, Gemini, and Perplexity. We measure mention rate, ranking position, sentiment, citation sources, and competitor performance. We then deliver a custom action plan with quick wins and a 60-to-90-day roadmap.
+
+## Service Model
+
+Engagement begins with a free 30-minute strategy call booked through Calendly. During the call, we run live AI queries against the client's business, show a real-time visibility snapshot, and identify priority opportunities. If the client decides to move forward, the full audit and custom action plan are delivered within 3 business days. We do not publish pricing because every audit is custom-scoped; pricing is discussed on the strategy call.
+
+## Who We Serve
+
+We work with businesses in the United States and United Kingdom across most industries: local services (legal, medical, hospitality, professional services), e-commerce, SaaS, agencies, and consumer brands. We do not require long-term contracts. There is no minimum commitment beyond the audit itself.
+
+## Why AI Visibility Matters
+
+Generative AI assistants like ChatGPT (800M+ weekly users), Claude, Gemini, and Perplexity are increasingly used as the first step in product and service research. Unlike traditional search engines that show ten ranked results, AI assistants typically recommend only two to four businesses per answer. A business that is not named in those answers is effectively invisible to that customer. Traditional SEO, paid search, and social media marketing do not directly influence what AI assistants say. AI Ads Partner specializes in this new layer of discoverability, sometimes called Generative Engine Optimization (GEO) or AI SEO.
+
+## Methodology
+
+Our methodology is transparent and reproducible. We use the actual consumer-facing interfaces of ChatGPT, Claude, Gemini, and Perplexity — not shared APIs, not synthetic results. Each platform is queried independently with buyer-intent prompts customized to the client's industry, geography, and customer segments. Results are logged, scored, and compared across platforms and against competitor brands.
+
+## Key Pages
+
+- [Homepage](https://aiadspartner.com): Overview of the service, methodology, audit deliverables, and frequently asked questions.
+- [Privacy Policy](https://aiadspartner.com/privacy.html): How we handle visitor and client data, GDPR and CCPA compliant.
+- [Terms of Service](https://aiadspartner.com/terms.html): Service terms, deliverable scope, and engagement conditions.
+- [Disclaimer](https://aiadspartner.com/disclaimer.html): Service limitations and result expectations.
+
+## Contact
+
+- Website: https://aiadspartner.com
+- Strategy call booking: https://calendly.com/YOUR-LINK-HERE
+- Email: hello@aiadspartner.com
+
+## Key Terms
+
+AI search visibility, generative engine optimization, GEO, AI SEO, LLM visibility, ChatGPT visibility audit, Claude visibility, Gemini visibility, Perplexity visibility, AI assistant marketing, AI recommendation optimization, brand mention rate in AI.
