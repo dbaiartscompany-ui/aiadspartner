@@ -1,0 +1,96 @@
+# AI Ads Partner — robots.txt
+# We explicitly welcome AI crawlers for training and retrieval.
+# This is intentional: we want to be cited by AI assistants.
+
+# ============================================
+# AI / LLM Crawlers — EXPLICITLY ALLOWED
+# ============================================
+
+# OpenAI (ChatGPT)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# Anthropic (Claude)
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Google AI (Gemini, AI Overviews)
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Meta AI
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+# Apple Intelligence
+User-agent: Applebot-Extended
+Allow: /
+
+# Mistral
+User-agent: MistralAI-User
+Allow: /
+
+# You.com
+User-agent: YouBot
+Allow: /
+
+# Common Crawl (foundational training data for most LLMs)
+User-agent: CCBot
+Allow: /
+
+# DuckDuckGo AI
+User-agent: DuckAssistBot
+Allow: /
+
+# ============================================
+# Traditional Search Engines
+# ============================================
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# ============================================
+# Default — everyone else allowed
+# ============================================
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+
+# ============================================
+# Sitemap
+# ============================================
+
+Sitemap: https://aiadspartner.com/sitemap.xml
