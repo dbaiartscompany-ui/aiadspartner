@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Terms of Service — AI Ads Partner</title>
+<meta name="description" content="AI Ads Partner terms of service. The rules that govern your use of our website and consulting services." />
+<meta name="robots" content="noindex, follow" />
+<link rel="canonical" href="https://aiadspartner.com/terms.html" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+  a { text-decoration: none; color: inherit; }
+
+  :root {
+    --purple: #5B3DF5;
+    --purple-light: #7B5FFF;
+    --purple-soft: #EFEAFD;
+    --purple-glow: rgba(91, 61, 245, 0.25);
+    --ink: #0A0A1F;
+    --bg: #FAFAF7;
+    --bg-2: #F2F1EC;
+    --bg-3: #FFFFFF;
+    --grey-text: #5F5F75;
+    --grey-soft: #8E8EA8;
+    --border: rgba(10, 10, 31, 0.08);
+    --border-strong: rgba(10, 10, 31, 0.15);
+    --font-display: 'Instrument Serif', Georgia, serif;
+    --font-body: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+    --radius-md: 14px;
+    --radius-full: 999px;
+    --container: 860px;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background: var(--bg);
+    color: var(--ink);
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  .container {
+    max-width: var(--container);
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(250, 250, 247, 0.85);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-bottom: 1px solid var(--border);
+  }
+  .nav-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 24px;
+    max-width: 1180px;
+    margin: 0 auto;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 700;
+    font-size: 17px;
+    color: var(--ink);
+  }
+  .logo-mark {
+    width: 32px; height: 32px;
+    background: var(--purple);
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 14px var(--purple-glow);
+  }
+  .logo-mark svg { width: 18px; height: 18px; }
+  .nav-cta {
+    padding: 10px 18px;
+    font-size: 13px;
+    font-weight: 600;
+    background: var(--ink);
+    color: var(--bg);
+    border-radius: var(--radius-full);
+    transition: all 0.25s;
+  }
+  .nav-cta:hover { background: var(--purple); }
+
+  .page-header {
+    padding: 80px 0 48px;
+    text-align: center;
+    border-bottom: 1px solid var(--border);
+  }
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--purple);
+    padding: 8px 14px;
+    border: 1px solid var(--purple-soft);
+    border-radius: var(--radius-full);
+    background: var(--purple-soft);
+    margin-bottom: 20px;
+  }
+  .eyebrow::before {
+    content: '';
+    width: 6px; height: 6px;
+    background: var(--purple);
+    border-radius: 50%;
+    box-shadow: 0 0 12px var(--purple-glow);
+  }
+  h1 {
+    font-family: var(--font-display);
+    font-weight: 400;
+    font-size: clamp(40px, 6vw, 64px);
+    line-height: 1.05;
+    letter-spacing: -0.01em;
+    margin-bottom: 16px;
+  }
+  h1 em { color: var(--purple); }
+  .updated {
+    color: var(--grey-soft);
+    font-size: 14px;
+    margin-top: 8px;
+  }
+
+  .content { padding: 56px 0 96px; }
+  .content h2 {
+    font-family: var(--font-display);
+    font-weight: 400;
+    font-size: clamp(26px, 3.5vw, 34px);
+    line-height: 1.15;
+    margin: 48px 0 16px;
+    color: var(--ink);
+  }
+  .content h2:first-child { margin-top: 0; }
+  .content h3 {
+    font-family: var(--font-body);
+    font-weight: 600;
+    font-size: 18px;
+    margin: 28px 0 10px;
+    color: var(--ink);
+  }
+  .content p { color: var(--grey-text); margin-bottom: 16px; }
+  .content ul {
+    color: var(--grey-text);
+    margin: 0 0 16px 0;
+    padding-left: 24px;
+  }
+  .content ul li { margin-bottom: 8px; }
+  .content ul li strong { color: var(--ink); font-weight: 600; }
+  .content a {
+    color: var(--purple);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+  }
+  .content a:hover { color: var(--purple-light); }
+  .content strong { color: var(--ink); font-weight: 600; }
+
+  .callout {
+    background: var(--purple-soft);
+    border: 1px solid var(--purple);
+    border-radius: var(--radius-md);
+    padding: 20px 24px;
+    margin: 24px 0;
+  }
+  .callout p { color: var(--ink); margin-bottom: 0; }
+  .callout.warn {
+    background: #FFF3E0;
+    border-color: #E89B3C;
+  }
+  .callout.warn p { color: #5A3A0F; }
+
+  footer {
+    border-top: 1px solid var(--border);
+    padding: 48px 0 32px;
+    background: var(--bg-2);
+  }
+  .footer-bottom {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    font-size: 13px;
+    color: var(--grey-soft);
+  }
+  .footer-links { display: flex; gap: 20px; flex-wrap: wrap; }
+  .footer-links a { color: var(--ink); transition: color 0.2s; }
+  .footer-links a:hover { color: var(--purple); }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="/" class="logo">
+      <span class="logo-mark">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M3 5C3 3.89543 3.89543 3 5 3H17C18.1046 3 19 3.89543 19 5V13C19 14.1046 18.1046 15 17 15H10L5 19V15C3.89543 15 3 14.1046 3 13V5Z" stroke="white" stroke-width="2" stroke-linejoin="round"/>
+          <circle cx="11" cy="9" r="2" fill="white"/>
+        </svg>
+      </span>
+      AI Ads Partner
+    </a>
+    <a href="/" class="nav-cta">Back to Home</a>
+  </div>
+</nav>
+
+<header class="page-header">
+  <div class="container">
+    <span class="eyebrow">Legal</span>
+    <h1>Terms of <em>Service</em></h1>
+    <div class="updated">Last updated: May 26, 2026</div>
+  </div>
+</header>
+
+<main class="content">
+  <div class="container">
+
+    <p>These Terms of Service ("Terms") govern your use of <a href="https://aiadspartner.com">aiadspartner.com</a> and the services we provide ("Services"). By using our website or engaging us for consulting work, you agree to these Terms. If you do not agree, please do not use our Services.</p>
+
+    <div class="callout">
+      <p><strong>Plain-language summary:</strong> We do our work professionally and transparently. You pay before we deliver. Audits are non-refundable — like SEO and consulting industry standard. We don't guarantee specific AI visibility results because we don't control AI assistants. Read on for the full version.</p>
+    </div>
+
+    <h2>1. About Us</h2>
+    <p>"AI Ads Partner" ("we," "us," "our") provides AI search visibility audits and consulting services to businesses in the United States, the United Kingdom, and other jurisdictions where we choose to operate. Contact: <a href="mailto:hello@aiadspartner.com">hello@aiadspartner.com</a>.</p>
+
+    <h2>2. Eligibility</h2>
+    <p>You must be at least 18 years old and authorized to enter into agreements on behalf of the business you represent. By engaging us, you confirm that you meet these requirements.</p>
+
+    <h2>3. Our Services</h2>
+    <p>We offer:</p>
+    <ul>
+      <li><strong>Free Strategy Call:</strong> A 30-minute video call where we run live AI queries on your business and share initial findings. No payment, no obligation.</li>
+      <li><strong>AI Visibility Audit:</strong> A custom paid engagement including an audit report and action plan, delivered within 3 business days of payment confirmation, subject to your timely provision of required information.</li>
+      <li><strong>Follow-on Consulting:</strong> Additional advisory work scoped separately by written agreement.</li>
+    </ul>
+    <p>Pricing is discussed and agreed during the strategy call. By proceeding to payment, you accept the scope and price quoted to you.</p>
+
+    <h2>4. Payment</h2>
+    <ul>
+      <li>Full payment is required before delivery of the audit report.</li>
+      <li>Payments are processed by third-party providers (e.g., Stripe, PayPal, or similar). We do not store your payment card information.</li>
+      <li>All prices are in the currency stated at the time of the agreement (typically USD or GBP). You are responsible for any applicable taxes or duties.</li>
+      <li>Failure to pay on time may result in suspension or termination of Services.</li>
+    </ul>
+
+    <h2>5. No Refunds</h2>
+    <div class="callout warn">
+      <p><strong>Important:</strong> All payments for the AI Visibility Audit and consulting Services are <strong>final and non-refundable</strong> once work has begun.</p>
+    </div>
+    <p>This policy mirrors standard practice in the SEO, marketing, and consulting industries. Once we begin the audit — which involves time, expertise, and real query costs across multiple AI platforms — the work cannot be undone or returned. By proceeding with payment, you acknowledge and accept this non-refund policy.</p>
+    <p>The free strategy call carries no charge, so this clause does not apply to it.</p>
+    <p>Nothing in this section limits any non-waivable consumer rights you may have under applicable law (for example, certain rights under UK or EU consumer protection law).</p>
+
+    <h2>6. Your Responsibilities</h2>
+    <p>To enable us to deliver Services effectively, you agree to:</p>
+    <ul>
+      <li>Provide accurate, complete, and timely information about your business, customers, and competitors.</li>
+      <li>Respond promptly to questions or requests for clarification.</li>
+      <li>Not share confidential audit content, methodology documents, or deliverables publicly without our written permission.</li>
+      <li>Use our Services lawfully and not for any deceptive, fraudulent, or harmful purpose.</li>
+    </ul>
+
+    <h2>7. Deliverables and Intellectual Property</h2>
+    <p>Upon full payment, you receive a non-exclusive, non-transferable license to use the audit report and action plan internally for your own business purposes.</p>
+    <p>We retain ownership of:</p>
+    <ul>
+      <li>Our underlying methodology, frameworks, query libraries, and analytical tools.</li>
+      <li>Aggregated or anonymized insights drawn from our research across clients.</li>
+      <li>The AI Ads Partner brand, website content, and trademarks.</li>
+    </ul>
+    <p>You may not resell, republish, or distribute our deliverables to third parties without our written consent.</p>
+
+    <h2>8. No Guarantees</h2>
+    <p>AI search visibility depends on factors outside our control — including the behavior and policies of third-party AI assistants (ChatGPT, Claude, Gemini, Perplexity, and others), evolving algorithms, your industry, your competitors' actions, and your own implementation of our recommendations.</p>
+    <p>Accordingly:</p>
+    <ul>
+      <li>We do not guarantee any specific increase in visibility, mention rate, ranking, traffic, leads, or revenue.</li>
+      <li>We do not guarantee inclusion in any AI assistant's recommendations.</li>
+      <li>We do not guarantee that recommendations in our action plan, if implemented, will produce a particular outcome.</li>
+    </ul>
+    <p>Our work represents professional advice based on best available data and methodology, not a guaranteed result.</p>
+
+    <h2>9. Third-Party Platforms</h2>
+    <p>Our audits measure how third-party AI platforms (ChatGPT, Claude, Gemini, Perplexity, and others) respond to queries. We are not affiliated with, endorsed by, or sponsored by OpenAI, Anthropic, Google, Perplexity AI, or any other AI provider. Their platforms, policies, and outputs may change at any time without notice. References to these platforms are nominative — for purposes of describing the scope of our work.</p>
+
+    <h2>10. Limitation of Liability</h2>
+    <p>To the maximum extent permitted by law:</p>
+    <ul>
+      <li>Our total liability arising out of or relating to the Services shall not exceed the total amount you paid us in the 12 months preceding the claim.</li>
+      <li>We are not liable for indirect, incidental, consequential, special, or punitive damages, including lost profits, lost revenue, or lost business opportunities.</li>
+      <li>Nothing in these Terms excludes or limits liability that cannot be excluded or limited under applicable law (such as liability for death or personal injury caused by negligence, or fraud).</li>
+    </ul>
+
+    <h2>11. Indemnification</h2>
+    <p>You agree to indemnify and hold us harmless from any claims, damages, or expenses arising out of your misuse of our Services, your breach of these Terms, or your violation of any law or third-party rights.</p>
+
+    <h2>12. Termination</h2>
+    <p>We may suspend or terminate Services if you breach these Terms, fail to make payment, or engage in conduct that we reasonably believe is harmful, unlawful, or contrary to our values. Sections that by their nature should survive termination (including payment obligations, IP, disclaimers, liability limits, and dispute resolution) will continue to apply.</p>
+
+    <h2>13. Confidentiality</h2>
+    <p>Both parties agree to keep confidential any non-public information shared during the engagement, including business strategies, competitor analysis, financial information, and audit findings. This obligation continues after the engagement ends.</p>
+
+    <h2>14. Governing Law and Disputes</h2>
+    <p>Unless otherwise required by mandatory consumer protection laws in your country of residence, these Terms are governed by and construed in accordance with the laws applicable to our place of business. The parties will attempt in good faith to resolve any dispute through direct negotiation before pursuing other remedies.</p>
+    <p>If you are a consumer resident in the United Kingdom or the European Economic Area, you retain the right to bring proceedings in the courts of your country of residence and to rely on mandatory protections of your local consumer law.</p>
+
+    <h2>15. Changes to These Terms</h2>
+    <p>We may update these Terms from time to time. Material changes will be reflected by updating the "Last updated" date above. Continued use of our Services after changes are posted constitutes acceptance.</p>
+
+    <h2>16. Contact</h2>
+    <p>Questions about these Terms? Email <a href="mailto:hello@aiadspartner.com">hello@aiadspartner.com</a>.</p>
+
+  </div>
+</main>
+
+<footer>
+  <div class="footer-bottom">
+    <span>© 2026 AI Ads Partner. All rights reserved.</span>
+    <div class="footer-links">
+      <a href="/privacy.html">Privacy</a>
+      <a href="/terms.html">Terms</a>
+      <a href="/disclaimer.html">Disclaimer</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
