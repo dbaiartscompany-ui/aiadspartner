@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Privacy Policy — AI Ads Partner</title>
+<meta name="description" content="AI Ads Partner privacy policy. How we collect, use, and protect your personal information in compliance with GDPR, UK-GDPR, and CCPA." />
+<meta name="robots" content="noindex, follow" />
+<link rel="canonical" href="https://aiadspartner.com/privacy.html" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+  a { text-decoration: none; color: inherit; }
+
+  :root {
+    --purple: #5B3DF5;
+    --purple-light: #7B5FFF;
+    --purple-soft: #EFEAFD;
+    --purple-glow: rgba(91, 61, 245, 0.25);
+    --ink: #0A0A1F;
+    --bg: #FAFAF7;
+    --bg-2: #F2F1EC;
+    --bg-3: #FFFFFF;
+    --grey-text: #5F5F75;
+    --grey-soft: #8E8EA8;
+    --border: rgba(10, 10, 31, 0.08);
+    --border-strong: rgba(10, 10, 31, 0.15);
+    --font-display: 'Instrument Serif', Georgia, serif;
+    --font-body: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+    --radius-md: 14px;
+    --radius-full: 999px;
+    --container: 860px;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background: var(--bg);
+    color: var(--ink);
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  .container {
+    max-width: var(--container);
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  /* === NAV (matches index.html) === */
+  nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(250, 250, 247, 0.85);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-bottom: 1px solid var(--border);
+  }
+  .nav-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 24px;
+    max-width: 1180px;
+    margin: 0 auto;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 700;
+    font-size: 17px;
+    color: var(--ink);
+  }
+  .logo-mark {
+    width: 32px; height: 32px;
+    background: var(--purple);
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 14px var(--purple-glow);
+  }
+  .logo-mark svg { width: 18px; height: 18px; }
+  .nav-cta {
+    padding: 10px 18px;
+    font-size: 13px;
+    font-weight: 600;
+    background: var(--ink);
+    color: var(--bg);
+    border-radius: var(--radius-full);
+    transition: all 0.25s;
+  }
+  .nav-cta:hover {
+    background: var(--purple);
+  }
+
+  /* === HEADER === */
+  .page-header {
+    padding: 80px 0 48px;
+    text-align: center;
+    border-bottom: 1px solid var(--border);
+  }
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--purple);
+    padding: 8px 14px;
+    border: 1px solid var(--purple-soft);
+    border-radius: var(--radius-full);
+    background: var(--purple-soft);
+    margin-bottom: 20px;
+  }
+  .eyebrow::before {
+    content: '';
+    width: 6px; height: 6px;
+    background: var(--purple);
+    border-radius: 50%;
+    box-shadow: 0 0 12px var(--purple-glow);
+  }
+  h1 {
+    font-family: var(--font-display);
+    font-weight: 400;
+    font-size: clamp(40px, 6vw, 64px);
+    line-height: 1.05;
+    letter-spacing: -0.01em;
+    margin-bottom: 16px;
+  }
+  h1 em { color: var(--purple); }
+  .updated {
+    color: var(--grey-soft);
+    font-size: 14px;
+    margin-top: 8px;
+  }
+
+  /* === CONTENT === */
+  .content {
+    padding: 56px 0 96px;
+  }
+  .content h2 {
+    font-family: var(--font-display);
+    font-weight: 400;
+    font-size: clamp(26px, 3.5vw, 34px);
+    line-height: 1.15;
+    margin: 48px 0 16px;
+    color: var(--ink);
+  }
+  .content h2:first-child { margin-top: 0; }
+  .content h3 {
+    font-family: var(--font-body);
+    font-weight: 600;
+    font-size: 18px;
+    margin: 28px 0 10px;
+    color: var(--ink);
+  }
+  .content p {
+    color: var(--grey-text);
+    margin-bottom: 16px;
+  }
+  .content ul {
+    color: var(--grey-text);
+    margin: 0 0 16px 0;
+    padding-left: 24px;
+  }
+  .content ul li {
+    margin-bottom: 8px;
+  }
+  .content ul li strong {
+    color: var(--ink);
+    font-weight: 600;
+  }
+  .content a {
+    color: var(--purple);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+  }
+  .content a:hover { color: var(--purple-light); }
+  .content strong { color: var(--ink); font-weight: 600; }
+
+  .callout {
+    background: var(--purple-soft);
+    border: 1px solid var(--purple);
+    border-radius: var(--radius-md);
+    padding: 20px 24px;
+    margin: 24px 0;
+  }
+  .callout p { color: var(--ink); margin-bottom: 0; }
+
+  /* === FOOTER (matches index.html) === */
+  footer {
+    border-top: 1px solid var(--border);
+    padding: 48px 0 32px;
+    background: var(--bg-2);
+  }
+  .footer-bottom {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    font-size: 13px;
+    color: var(--grey-soft);
+  }
+  .footer-links {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .footer-links a {
+    color: var(--ink);
+    transition: color 0.2s;
+  }
+  .footer-links a:hover { color: var(--purple); }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="/" class="logo">
+      <span class="logo-mark">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M3 5C3 3.89543 3.89543 3 5 3H17C18.1046 3 19 3.89543 19 5V13C19 14.1046 18.1046 15 17 15H10L5 19V15C3.89543 15 3 14.1046 3 13V5Z" stroke="white" stroke-width="2" stroke-linejoin="round"/>
+          <circle cx="11" cy="9" r="2" fill="white"/>
+        </svg>
+      </span>
+      AI Ads Partner
+    </a>
+    <a href="/" class="nav-cta">Back to Home</a>
+  </div>
+</nav>
+
+<header class="page-header">
+  <div class="container">
+    <span class="eyebrow">Legal</span>
+    <h1>Privacy <em>Policy</em></h1>
+    <div class="updated">Last updated: May 26, 2026</div>
+  </div>
+</header>
+
+<main class="content">
+  <div class="container">
+
+    <p>This Privacy Policy explains how AI Ads Partner ("we," "us," or "our") collects, uses, and protects your personal information when you visit <a href="https://aiadspartner.com">aiadspartner.com</a> or use our services. We are committed to handling your data transparently and in accordance with applicable data protection laws, including the General Data Protection Regulation (GDPR), the UK General Data Protection Regulation (UK-GDPR), and the California Consumer Privacy Act (CCPA/CPRA).</p>
+
+    <div class="callout">
+      <p><strong>Summary:</strong> We collect minimal information — your email when you book a call, basic analytics about how you use our site, and any details you share during our consulting work. We do not sell your data. Ever.</p>
+    </div>
+
+    <h2>1. Who We Are</h2>
+    <p>AI Ads Partner is an AI search visibility audit and consulting service. We help businesses understand and improve how they are recommended by AI assistants such as ChatGPT, Claude, Gemini, and Perplexity.</p>
+    <p>For any privacy-related questions, you can reach us at <a href="mailto:hello@aiadspartner.com">hello@aiadspartner.com</a>.</p>
+
+    <h2>2. Information We Collect</h2>
+
+    <h3>Information you provide directly</h3>
+    <ul>
+      <li><strong>When you book a strategy call:</strong> Your name, email address, business name, and any scheduling preferences you share through our booking system (Calendly).</li>
+      <li><strong>When you become a client:</strong> Information necessary to deliver the audit, including your business website, target customer descriptions, competitor information, and any materials you share with us.</li>
+      <li><strong>When you contact us:</strong> Your name, email address, and the content of your message.</li>
+    </ul>
+
+    <h3>Information collected automatically</h3>
+    <ul>
+      <li><strong>Analytics data:</strong> We use Google Analytics 4 to understand how visitors use our site. This includes pages viewed, time on page, device type, browser type, approximate location (country/region level), and referral source. IP addresses are anonymized.</li>
+      <li><strong>Cookies and similar technologies:</strong> See Section 7 below.</li>
+    </ul>
+
+    <h2>3. How We Use Your Information</h2>
+    <p>We use the information we collect to:</p>
+    <ul>
+      <li>Schedule and conduct your free strategy call.</li>
+      <li>Prepare and deliver audit reports and consulting recommendations.</li>
+      <li>Respond to your inquiries.</li>
+      <li>Understand how our website performs and improve it.</li>
+      <li>Comply with our legal obligations.</li>
+    </ul>
+
+    <h2>4. Legal Basis for Processing (GDPR / UK-GDPR)</h2>
+    <p>If you are in the European Economic Area or the United Kingdom, we process your personal data based on:</p>
+    <ul>
+      <li><strong>Contract:</strong> To deliver services you have requested (strategy call, audit, consulting).</li>
+      <li><strong>Legitimate interest:</strong> To operate and improve our website and communicate with prospective clients.</li>
+      <li><strong>Consent:</strong> For non-essential analytics cookies, which you may decline.</li>
+      <li><strong>Legal obligation:</strong> To comply with tax, accounting, and other regulatory requirements.</li>
+    </ul>
+
+    <h2>5. How We Share Your Information</h2>
+    <p>We do not sell your personal information. We share data only with the following service providers, each of which has its own privacy policy:</p>
+    <ul>
+      <li><strong>Calendly</strong> — for scheduling strategy calls.</li>
+      <li><strong>Google Analytics 4</strong> — for website analytics.</li>
+      <li><strong>Google Workspace</strong> — for email and document storage related to client work.</li>
+      <li><strong>Payment processors</strong> — if you become a paying client, transactions are handled by a third-party processor. We do not store your payment card details.</li>
+    </ul>
+    <p>We may also disclose information if required by law, court order, or to protect our legal rights.</p>
+
+    <h2>6. Data Retention</h2>
+    <p>We keep your information only as long as necessary for the purposes described above:</p>
+    <ul>
+      <li>Strategy call inquiries: up to 12 months from your last interaction.</li>
+      <li>Active client records: for the duration of the engagement plus 7 years for tax and legal compliance.</li>
+      <li>Analytics data: as configured in Google Analytics (default: 14 months).</li>
+    </ul>
+
+    <h2>7. Cookies</h2>
+    <p>We use cookies and similar technologies to operate our site and analyze traffic. The cookies we use fall into two categories:</p>
+    <ul>
+      <li><strong>Essential cookies:</strong> Required for the site to function (e.g., booking flows). These do not require consent.</li>
+      <li><strong>Analytics cookies:</strong> Google Analytics 4 cookies that help us understand visitor behavior. You can decline these without affecting site functionality.</li>
+    </ul>
+    <p>You can control cookies through your browser settings. Disabling cookies may affect some features of the site.</p>
+
+    <h2>8. Your Rights</h2>
+
+    <h3>If you are in the EEA or United Kingdom (GDPR / UK-GDPR)</h3>
+    <p>You have the right to:</p>
+    <ul>
+      <li>Access the personal data we hold about you.</li>
+      <li>Request correction of inaccurate data.</li>
+      <li>Request deletion of your data ("right to be forgotten").</li>
+      <li>Object to or restrict processing.</li>
+      <li>Request data portability.</li>
+      <li>Withdraw consent at any time, where consent is the legal basis.</li>
+      <li>Lodge a complaint with your local data protection authority (e.g., the UK ICO).</li>
+    </ul>
+
+    <h3>If you are a California resident (CCPA / CPRA)</h3>
+    <p>You have the right to:</p>
+    <ul>
+      <li>Know what personal information we collect, use, and share.</li>
+      <li>Request deletion of your personal information.</li>
+      <li>Correct inaccurate personal information.</li>
+      <li>Opt out of the "sale" or "sharing" of personal information. <strong>We do not sell or share personal information in the CCPA/CPRA sense.</strong></li>
+      <li>Be free from discrimination for exercising your privacy rights.</li>
+    </ul>
+
+    <p>To exercise any of these rights, email us at <a href="mailto:hello@aiadspartner.com">hello@aiadspartner.com</a>. We will respond within the timeframes required by applicable law.</p>
+
+    <h2>9. Data Security</h2>
+    <p>We use industry-standard administrative and technical measures to protect your information. However, no system is perfectly secure. If you believe your data has been compromised, please contact us immediately.</p>
+
+    <h2>10. International Transfers</h2>
+    <p>We serve clients in the United States and United Kingdom. Some of our service providers (such as Google) may process data in the United States. Where applicable, we rely on Standard Contractual Clauses or equivalent safeguards to ensure international transfers comply with GDPR and UK-GDPR.</p>
+
+    <h2>11. Children's Privacy</h2>
+    <p>Our services are intended for businesses and adults. We do not knowingly collect personal information from anyone under 16. If you believe a child has provided us with personal data, please contact us so we can delete it.</p>
+
+    <h2>12. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. Material changes will be reflected by updating the "Last updated" date at the top of this page. We encourage you to review this policy periodically.</p>
+
+    <h2>13. Contact Us</h2>
+    <p>For any privacy questions, requests, or complaints, contact us at:</p>
+    <p><strong>Email:</strong> <a href="mailto:hello@aiadspartner.com">hello@aiadspartner.com</a></p>
+
+  </div>
+</main>
+
+<footer>
+  <div class="footer-bottom">
+    <span>© 2026 AI Ads Partner. All rights reserved.</span>
+    <div class="footer-links">
+      <a href="/privacy.html">Privacy</a>
+      <a href="/terms.html">Terms</a>
+      <a href="/disclaimer.html">Disclaimer</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
